@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/rizwanah.github.io/static/css/main.590d2ebf.chunk.css",
-    "main.js": "/rizwanah.github.io/static/js/main.c21c70e2.chunk.js",
-    "main.js.map": "/rizwanah.github.io/static/js/main.c21c70e2.chunk.js.map",
-    "runtime-main.js": "/rizwanah.github.io/static/js/runtime-main.f043f766.js",
-    "runtime-main.js.map": "/rizwanah.github.io/static/js/runtime-main.f043f766.js.map",
-    "static/css/2.150d169a.chunk.css": "/rizwanah.github.io/static/css/2.150d169a.chunk.css",
-    "static/js/2.06054a22.chunk.js": "/rizwanah.github.io/static/js/2.06054a22.chunk.js",
-    "static/js/2.06054a22.chunk.js.map": "/rizwanah.github.io/static/js/2.06054a22.chunk.js.map",
-    "static/js/3.b2e90488.chunk.js": "/rizwanah.github.io/static/js/3.b2e90488.chunk.js",
-    "static/js/3.b2e90488.chunk.js.map": "/rizwanah.github.io/static/js/3.b2e90488.chunk.js.map",
+    "main.css": "/rizwanah.github.io/static/css/main.c32d842e.chunk.css",
+    "main.js": "/rizwanah.github.io/static/js/main.0ff6ad89.chunk.js",
+    "main.js.map": "/rizwanah.github.io/static/js/main.0ff6ad89.chunk.js.map",
+    "runtime-main.js": "/rizwanah.github.io/static/js/runtime-main.d31b7cdc.js",
+    "runtime-main.js.map": "/rizwanah.github.io/static/js/runtime-main.d31b7cdc.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/rizwanah.github.io/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.04d01b76.chunk.js": "/rizwanah.github.io/static/js/2.04d01b76.chunk.js",
+    "static/js/2.04d01b76.chunk.js.map": "/rizwanah.github.io/static/js/2.04d01b76.chunk.js.map",
+    "static/js/3.d65b85b1.chunk.js": "/rizwanah.github.io/static/js/3.d65b85b1.chunk.js",
+    "static/js/3.d65b85b1.chunk.js.map": "/rizwanah.github.io/static/js/3.d65b85b1.chunk.js.map",
     "index.html": "/rizwanah.github.io/index.html",
-    "static/css/2.150d169a.chunk.css.map": "/rizwanah.github.io/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.590d2ebf.chunk.css.map": "/rizwanah.github.io/static/css/main.590d2ebf.chunk.css.map",
-    "static/js/2.06054a22.chunk.js.LICENSE.txt": "/rizwanah.github.io/static/js/2.06054a22.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/rizwanah.github.io/static/media/r_mustafa3.4b4cff29.jpg",
-    "static/media/logo.516cf201.png": "/rizwanah.github.io/static/media/logo.516cf201.png"
+    "static/css/2.4c97ca4f.chunk.css.map": "/rizwanah.github.io/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.c32d842e.chunk.css.map": "/rizwanah.github.io/static/css/main.c32d842e.chunk.css.map",
+    "static/js/2.04d01b76.chunk.js.LICENSE.txt": "/rizwanah.github.io/static/js/2.04d01b76.chunk.js.LICENSE.txt",
+    "static/media/Rizwanah_Mustafa_CV.b6714f42.pdf": "/rizwanah.github.io/static/media/Rizwanah_Mustafa_CV.b6714f42.pdf",
+    "static/media/App.css": "/rizwanah.github.io/static/media/r_mustafa3.a1ce0cfe.jpg",
+    "static/media/rmlogo.ba46b729.png": "/rizwanah.github.io/static/media/rmlogo.ba46b729.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f043f766.js",
-    "static/css/2.150d169a.chunk.css",
-    "static/js/2.06054a22.chunk.js",
-    "static/css/main.590d2ebf.chunk.css",
-    "static/js/main.c21c70e2.chunk.js"
+    "static/js/runtime-main.d31b7cdc.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.04d01b76.chunk.js",
+    "static/css/main.c32d842e.chunk.css",
+    "static/js/main.0ff6ad89.chunk.js"
   ]
 }
