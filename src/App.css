@@ -47,15 +47,21 @@
 
 }
 body{
-  font-family: "Roboto Condesed" sans-serif;
+  font-family: "Roboto Condensed" sans-serif;
 }
 /************************ Navbar ***********************************/
 nav{
   z-index: 2;
+  background: #272626;
+ 
 }
+
 .logo{
-  width:12.25rem;
+  width:5rem;
   height:0.5;
+  padding: 6px;
+  margin-left: 2rem; 
+  
 }
 
 /************************Menu links***********************************/
@@ -98,7 +104,7 @@ nav ul li{
 /************************ Header ***********************************/
 .header-wraper{
   position:relative;
-  background: url(./images/headerimage.jpg) no-repeat; 
+  background: url(./images/headerimage2.jpg) no-repeat; 
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -124,13 +130,7 @@ nav ul li{
   text-transform: uppercase;
 }
 
-.fakeimg{
-  position:relative;
-  background: url(./images/r_mustafa3.jpg) no-repeat; 
-  background-size: cover;
-  background-position: center;
-  height: 90vh;
-}
+
 /************************ Typed Text ***********************************/
 .typed-text{
   font-size: 2rem;
@@ -177,49 +177,71 @@ nav ul li{
     display:none;
   }
 }
-/************************ About us Divider ***********************************/
-.divider{  
-margin: 1px auto;
-align-items: center;
-max-width: 600px;
-position:relative;
-}
+/************************ About us ***********************************/
 
-
-.divider:after{
-  content: "";
-  display:block;
-  width: 120px;
-  height:1px;
-  background:#f9ab00;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  z-index: -2;
+.align{
+  color: var(--primary-white); 
+  padding-left: 0.8rem ;
   }
 
-  .divider:before{
-    content: "";
-    display:block;
-    width: 120px;
-    height:1px;
-    background:#f9ab00;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    z-index: -2;
-    }
+.icon{
+  padding-left: 0.8rem ;
+  color:#f9ab00;
+  }
 
-    .align{
-      color: var(--primary-white); 
-      padding-left: 0.8rem ;
-      }
+.division{       
+  position: relative;
+  background-color: #000000;
+  z-index:1;
+  
+  }
 
-      .icon{
-        padding-left: 0.8rem ;
-        color:#f9ab00;
-      }
+  .myimg{
+    position:relative;
+    background: url(./images/r_mustafa3.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 45vh;
+    margin-top: 10vh;
+    margin-left: 3vh;
+  }
 
-      .bgcolor{
-        background-color: rgb(29, 27, 27);
-      }
+.nameid{
+  color: var(--primary-white);
+}
+
+label{
+  color: #fff;
+}
+
+@media(max-width:768px){
+  .myimg{
+    
+    height: 40vh;
+    width: 35vh;
+    align-items: center;
+    margin-bottom: 10vh;
+  }
+}
+
+/************************ Contact ***********************************/
+.contact_info{       
+  background-color:#272626;
+ 
+  }
+
+  .textcolor{
+    color:var(--primary-white);
+  }
+
+  .icon{
+    align-items: center;
+  }
+
+  .vl {
+    color: #282c34;
+    border-left: 1px solid ;
+    height: 70px;
+  }
+  
