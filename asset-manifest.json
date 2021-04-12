@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3737d29a.chunk.css",
-    "main.js": "/portfolio/static/js/main.9f2e9c61.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9f2e9c61.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.13b4f4bc.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.13b4f4bc.js.map",
+    "main.js": "/portfolio/static/js/main.3bcd399f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3bcd399f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.37205277.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.37205277.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/portfolio/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.684a17a5.chunk.js": "/portfolio/static/js/2.684a17a5.chunk.js",
-    "static/js/2.684a17a5.chunk.js.map": "/portfolio/static/js/2.684a17a5.chunk.js.map",
-    "static/js/3.6fa1ef1a.chunk.js": "/portfolio/static/js/3.6fa1ef1a.chunk.js",
-    "static/js/3.6fa1ef1a.chunk.js.map": "/portfolio/static/js/3.6fa1ef1a.chunk.js.map",
+    "static/js/2.8b41ec88.chunk.js": "/portfolio/static/js/2.8b41ec88.chunk.js",
+    "static/js/2.8b41ec88.chunk.js.map": "/portfolio/static/js/2.8b41ec88.chunk.js.map",
+    "static/js/3.3507e576.chunk.js": "/portfolio/static/js/3.3507e576.chunk.js",
+    "static/js/3.3507e576.chunk.js.map": "/portfolio/static/js/3.3507e576.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/portfolio/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.3737d29a.chunk.css.map": "/portfolio/static/css/main.3737d29a.chunk.css.map",
-    "static/js/2.684a17a5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.684a17a5.chunk.js.LICENSE.txt",
+    "static/js/2.8b41ec88.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8b41ec88.chunk.js.LICENSE.txt",
     "static/media/Rizwanah_Mustafa_CV.b6714f42.pdf": "/portfolio/static/media/Rizwanah_Mustafa_CV.b6714f42.pdf",
     "static/media/App.css": "/portfolio/static/media/r_mustafa3.a1ce0cfe.jpg",
     "static/media/rmlogo.5534b036.png": "/portfolio/static/media/rmlogo.5534b036.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.13b4f4bc.js",
+    "static/js/runtime-main.37205277.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.684a17a5.chunk.js",
+    "static/js/2.8b41ec88.chunk.js",
     "static/css/main.3737d29a.chunk.css",
-    "static/js/main.9f2e9c61.chunk.js"
+    "static/js/main.3bcd399f.chunk.js"
   ]
 }
