@@ -1,184 +1,133 @@
 import React from "react";
-import {Button} from 'react-bootstrap';
-import {Progress, Row, Col, Container, Form, FormGroup, Label, Input} from 'reactstrap';
-import 'holderjs';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faUser, faFilePdf, faStar} from "@fortawesome/free-solid-svg-icons";
-
-
-
+import { Button } from 'react-bootstrap';
+import { Progress, Row, Col, Container } from 'reactstrap';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser, faFilePdf, faStar } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import cv from "../pdf/Rizwanah_Mustafa_CV.pdf";
 
 
 const about = () => {
-    return (
-      <div className="bgcolor">
-        <Container className="p-5" fluid={true}>
-        <Row>
-          <Col sm="4">
-      
-          <div className="fakeimg"></div> 
-      
-      </Col>
-        <Col sm="8">
-         <h1 className="text-center"><a className="text-white">ABOUT</a> <a className="text-warning">ME</a></h1>                        
-         <hr class="line bg-warning"></hr>
-      
-      
-          <Row className="mb-3">            
-                            <FontAwesomeIcon className="icon"  icon={faUser} size="2x"/>                         
-                                   <h4 className="align mb-3">Personal info</h4>          
-            </Row>
-         <p className="text-white">I am a Software Engineer intern, who wants to work with a company that deals in the development of new technologies 
-      and advances my skills as a developer while also having a hand in developing the innovations of tomorrow.</p>
+      return (
+            <div className="division" id="about">
+                  <Container className="p-5" fluid={true}>
+                        <Row>
+                              <Col sm="4">
+                                    <div className="myimg"></div>
+                              </Col>
+                              <Col sm="8">
+                                    <h1 className="text-center text-white">ABOUT <span className="text-warning">ME</span></h1>
+                                    <hr className="line bg-warning"></hr>
 
-      <Container className="p-5 text-white">
-        <Row className="mb-3">
-          <Col sm="6">
-        
-          <li>First Name: Rizwanah</li>
-                                        <li>Last Name: Mustafa</li>
-                                        <li>Date of birth: 12 june 1981 </li>
-                                        <li>Nationality: Pakistani</li>
-					<li>Marital Status: Married</li>
-          
-      </Col>
-        <Col sm="6">
-                                        <li>Phone: +45 42220032</li>
-                                        <li>Address: Copenhagen, Denmark</li>
-                                        <li>Email: rizwanah_batool@hotmail.com</li>
-                                        <li>Languages: English - Urdu - Danish</li>
-					                              <li>LinkedIn: <a href="https://www.linkedin.com/in/rizwanah-mustafa/"> rizwanah-mustafa</a></li>
-          
-      </Col>
-					
-      </Row>
-</Container>
-                  <Button variant="outline-warning">
-									Download Resume <FontAwesomeIcon  icon={faFilePdf}></FontAwesomeIcon>
-                  </Button>
+                                    <Row className="mb-3">
+                                          <FontAwesomeIcon className="icon" icon={faUser} size="2x" />
+                                          <h4 className="align mb-3">Personal info</h4>
+                                    </Row>
+                                    <p className="text-white">I am a Software Engineer intern, who wants to work with a company that deals in the
+                                    development of new technologies and advances my skills as a developer while also having a hand in developing the
+            innovations of tomorrow.</p>
 
-                  <hr class="line bg-warning"></hr>
- 
-                  <Row className="mb-3">                 
-                            <FontAwesomeIcon className="icon pb-6"  icon={faStar} size="2x"/>                         
-                                   <h4 className="align mb-1">Skills</h4>  
-    
-    <Container className="p-5  text-white">
-    <Row className="mb-1">
-    <Col sm="6">
-      <Container className="p-2  text-white">
-            <Progress animated color="warning" value={50}>50%</Progress>
-            C#.NET    
-      </Container>    
+                                    <Container className="p-5 text-white">
+                                          <Row className="mb-3">
+                                                <Col sm="6" className="list1">
 
-      <Container className="p-2 text-white">
-            <Progress animated color="warning" value={80}>80%</Progress>
-            HTML     
-      </Container>   
+                                                      <li>First Name: Rizwanah</li>
+                                                      <li>Last Name: Mustafa</li>
+                                                      <li>Nationality: Pakistani</li>
+                                                      <li>Marital Status: Married</li>
+                                                </Col>
 
-      <Container className="p-2 text-white">
-            <Progress animated color="warning" value={75}>75%</Progress>
-            CSS      
-      </Container>   
+                                                <Col sm="6" className="list2">
+                                                      <li>Phone: +45 42 22 00 32</li>
+                                                      <li className="alignlist">Address: Copenhagen, Denmark</li>
+                                                      <li className="alignlist">Email: rizwanah_batool@hotmail.com</li>
+                                                      <li className="alignlist">Languages: English - Urdu - Danish</li>
+                                                </Col>
+                                          </Row>
+                                    </Container>
+                                    <div className="d-sm-flex align-items-justify">
 
-      <Container className="p-2 text-white">
-            <Progress animated color="warning" value={50}>50%</Progress>
-            MSSQL      
-      </Container> 
-    </Col>
-    <Col sm="6">
-      <Container className="p-2 text-white">
-            <Progress animated color="warning" value={60}>60%</Progress>
-            JavaScript      
-      </Container>       
+                                          <a href={cv} downlaod="Rizwanah_Mustafa_CV" target="_blank">
+                                                <Button variant="outline-warning">
+                                                      Download Resume <FontAwesomeIcon icon={faFilePdf}></FontAwesomeIcon>
+                                                </Button>
+                                          </a>
+                                          <hr className="line"></hr>
+                                          <ul>
+                                                <a href="https://www.linkedin.com/in/rizwanah-mustafa/" target="_blank">
+                                                      <FontAwesomeIcon className="socialicon" size="2x" icon={faLinkedin}></FontAwesomeIcon>
+                                                </a>
+                                          </ul>
+                                          <ul>
+                                                <a href="https://github.com/Rizwanahb" target="_blank">
+                                                      <FontAwesomeIcon className="socialicon" size="2x" icon={faGithub}></FontAwesomeIcon>
+                                                </a>
+                                          </ul>
+                                    </div>
+                                    <hr className="line bg-warning"></hr>
 
-       <Container className="p-2 text-white">
-            <Progress animated color="warning" value={75}>75%</Progress>
-            PHP      
-      </Container> 
+                                    <Row className="mb-3">
+                                          <FontAwesomeIcon className="icon pb-6" icon={faStar} size="2x" />
+                                          <h4 className="align mb-1">Skills</h4>
+                                          <Container className="p-5  text-white">
+                                                <Row className="mb-1">
+                                                      <Col sm="6">
+                                                            <Container className="p-2  text-white">
+                                                                  C#.NET
+                               <Progress animated color="warning text-secondary" value={50}>50%</Progress>
+                                                            </Container>
 
-       <Container className="p-2 text-white">
-            <Progress animated color="warning" value={70}>70%</Progress>
-            React      
-      </Container>  
-      <Container className="p-2 text-white">
-            <Progress animated color="warning" value={75}>75%</Progress>
-            Bootstrap 4      
-      </Container> 
-      </Col>  
-      </Row>  
-      </Container>                                 
-            </Row>
+                                                            <Container className="p-2 text-white">
+                                                                  HTML
+                              <Progress animated color="warning text-secondary" value={80}>80%</Progress>
 
-            
-      </Col>
-						
-</Row>
-</Container>
+                                                            </Container>
 
-<div className="bgcolor">
-<h1 className="text-center"><a className="text-white">GET IN</a> <a className="text-warning">TOUCH</a></h1>                        
-         <hr class="line bg-warning"></hr>
-      <Container className="p-5" fluid={true}>
-      <Form>
-      <Row form>
-        <Col md={6}>
-          <FormGroup>
-            <Label for="exampleEmail">Email</Label>
-            <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
-          </FormGroup>
-        </Col>
-        <Col md={6}>
-          <FormGroup>
-            <Label for="examplePassword">Password</Label>
-            <Input type="password" name="password" id="examplePassword" placeholder="password placeholder" />
-          </FormGroup>
-        </Col>
-      </Row>
-      <FormGroup>
-        <Label for="exampleAddress">Address</Label>
-        <Input type="text" name="address" id="exampleAddress" placeholder="1234 Main St"/>
-      </FormGroup>
-      <FormGroup>
-        <Label for="exampleAddress2">Address 2</Label>
-        <Input type="text" name="address2" id="exampleAddress2" placeholder="Apartment, studio, or floor"/>
-      </FormGroup>
-      <Row form>
-        <Col md={6}>
-          <FormGroup>
-            <Label for="exampleCity">City</Label>
-            <Input type="text" name="city" id="exampleCity"/>
-          </FormGroup>
-        </Col>
-        <Col md={4}>
-          <FormGroup>
-            <Label for="exampleState">State</Label>
-            <Input type="text" name="state" id="exampleState"/>
-          </FormGroup>
-        </Col>
-        <Col md={2}>
-          <FormGroup>
-            <Label for="exampleZip">Zip</Label>
-            <Input type="text" name="zip" id="exampleZip"/>
-          </FormGroup>  
-        </Col>
-      </Row>
-      <FormGroup check>
-        <Input type="checkbox" name="check" id="exampleCheck"/>
-        <Label for="exampleCheck" check>Check me out</Label>
-      </FormGroup>
-      <Button>Sign in</Button>
-    </Form>
+                                                            <Container className="p-2 text-white">
+                                                                  CSS
+                              <Progress animated color="warning text-secondary" value={75}>75%</Progress>
 
-      </Container>
-</div>
+                                                            </Container>
 
-</div>
+                                                            <Container className="p-2 text-white">
+                                                                  MSSQL
+                              <Progress animated color="warning text-secondary" value={50}>50%</Progress>
 
+                                                            </Container>
+                                                      </Col>
 
+                                                      <Col sm="6">
+                                                            <Container className="p-2 text-white">
+                                                                  JavaScript
+                              <Progress animated color="warning text-secondary" value={60}>60%</Progress>
+                                                            </Container>
 
+                                                            <Container className="p-2 text-white">
+                                                                  PHP
+                              <Progress animated color="warning text-secondary" value={75}>75%</Progress>
 
-    )
+                                                            </Container>
+
+                                                            <Container className="p-2 text-white">
+                                                                  React
+                              <Progress animated color="warning text-secondary" value={70}>70%</Progress>
+
+                                                            </Container>
+
+                                                            <Container className="p-2 text-white">
+                                                                  Bootstrap 4
+                              <Progress animated color="warning text-secondary" value={75}>75%</Progress>
+
+                                                            </Container>
+                                                      </Col>
+                                                </Row>
+                                          </Container>
+                                    </Row>
+                              </Col>
+
+                        </Row>
+                  </Container>
+            </div>
+      )
 }
-
 export default about

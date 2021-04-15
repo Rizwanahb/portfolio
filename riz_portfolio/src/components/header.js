@@ -8,15 +8,15 @@ const header = () => {
             <div className="main-info">
                 <h1>Rizwanan Mustafa</h1>
                 <Typed className="typed-text"
-                strings={["I'm a Programmer","I'm a Developer"]}
-                typeSpeed={40}
-                backSpeed={60}
-                loop
+                    strings={["I'm a Programmer", "I'm a Developer"]}
+                    typeSpeed={40}
+                    backSpeed={60}
+                    loop
                 />
 
-                <Button variant="outline-warning">Comtact me</Button>
+                <Button variant="outline-warning" href="#contact">Contact me</Button>
             </div>
-            
+
         </div>
     )
 }
