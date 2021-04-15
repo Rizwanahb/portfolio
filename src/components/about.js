@@ -31,14 +31,12 @@ const about = () => {
                                           <Row className="mb-3">
                                                 <Col sm="6" className="list1">
 
-                                                      <li>First Name: Rizwanah</li>
-                                                      <li>Last Name: Mustafa</li>
+                                                      <li>Full Name: Rizwanah Mustafa</li>
                                                       <li>Nationality: Pakistani</li>
                                                       <li>Marital Status: Married</li>
                                                 </Col>
 
                                                 <Col sm="6" className="list2">
-                                                      <li>Phone: +45 42 22 00 32</li>
                                                       <li className="alignlist">Address: Copenhagen, Denmark</li>
                                                       <li className="alignlist">Email: rizwanah_batool@hotmail.com</li>
                                                       <li className="alignlist">Languages: English - Urdu - Danish</li>
