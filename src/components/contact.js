@@ -23,7 +23,7 @@ const contact = () => {
                         <div className="contact_info">
                             <Row className="p-5 text-white">
                                 <h4 className="content-title">Contact Info</h4>
-                                <p className="info-description text-secondary">Seeking an Internship position with company in order to build upon skills necessary for the IT industry.</p>
+                                <p className="info-description text-secondary">Seeking an Internship position with a company in order to build upon skills necessary for the IT industry.</p>
 
                                 <List type="unstyled">
                                     <Row>
