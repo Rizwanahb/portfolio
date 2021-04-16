@@ -23,7 +23,7 @@ const portfolio = () => {
               <CardImg top src={Portfolioimg1} />
               <CardBody>
                 <CardTitle tag="h5">Volvo Ocean Race Project</CardTitle>
-                <a href="https://github.com/Rizwanahb" target="_blank" className="btn btn-outline-light">See Profile <FontAwesomeIcon icon={faBriefcase}></FontAwesomeIcon></a>
+                <a href="https://github.com/Rizwanahb/Volvo_Ocean_Race" target="_blank" className="btn btn-outline-light">See Project <FontAwesomeIcon icon={faBriefcase}></FontAwesomeIcon></a>
               </CardBody>
             </Card>
 
@@ -31,7 +31,7 @@ const portfolio = () => {
               <CardImg top src={Portfolioimg2} />
               <CardBody>
                 <CardTitle tag="h5">GEO Tema Project</CardTitle>
-                <a href="https://github.com/Rizwanahb/WpfGeoTema" target="_blank" className="btn btn-outline-light">See Profile <FontAwesomeIcon icon={faBriefcase}></FontAwesomeIcon></a>
+                <a href="https://github.com/Rizwanahb/WpfGeoTema" target="_blank" className="btn btn-outline-light">See Project <FontAwesomeIcon icon={faBriefcase}></FontAwesomeIcon></a>
               </CardBody>
             </Card>
 
@@ -39,7 +39,7 @@ const portfolio = () => {
               <CardImg top src={Portfolioimg3} />
               <CardBody>
                 <CardTitle tag="h5"> CRUD-interface in WPF Project</CardTitle>
-                <a href="https://github.com/Rizwanahb/FilmWebApp-med-MVC" target="_blank" className="btn btn-outline-light">See Profile <FontAwesomeIcon icon={faBriefcase}></FontAwesomeIcon></a>
+                <a href="https://github.com/Rizwanahb/FilmWebApp-med-MVC" target="_blank" className="btn btn-outline-light">See Project <FontAwesomeIcon icon={faBriefcase}></FontAwesomeIcon></a>
               </CardBody>
             </Card>
           </CardDeck>
